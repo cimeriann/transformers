@@ -1,8 +1,10 @@
 def my_func():
-	print('hello')
+	print("hello")
+
 
 myname = "Olayinka Adebisi"
 welcomemsg = "welcome,"
 
+
 def message():
-	print(welcomemsg + " and " + myfunc() + " " + myname)
+	print(welcomemsg + " and " + my_func() + " " + myname)
