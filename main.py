@@ -3,6 +3,6 @@ def my_func():
 
 myname = "Olayinka Adebisi"
 
-welcomemsg =  "welcome,
+welcomemsg =  "welcome,"
 def message():
 	print(welcomemsg + " and " myfunc() + " " + myname)
