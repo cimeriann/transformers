@@ -1,7 +1,8 @@
 # This is a basic workflow to help you get started with Actions
-
 name: Super-Linter
+
 on: push
+
 jobs:
 	super-lint:
 		name: Lint code base
