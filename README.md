@@ -1,2 +1,2 @@
 # GitHub-Actions-Practice
-Learning to use github actions for ci/cd
+Learning to use GitHub actions for ci/cd.
