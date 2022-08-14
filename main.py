@@ -3,5 +3,6 @@ def my_func():
 
 myname = "Olayinka Adebisi"
 
+welcomemsg =  "welcome,
 def message():
-	print(myfunc() + " " + myname)
+	print(welcomemsg + " and " myfunc() + " " + myname)
