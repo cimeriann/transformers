@@ -5,4 +5,4 @@ myname = "Olayinka Adebisi"
 
 welcomemsg =  "welcome,"
 def message():
-	print(welcomemsg + " and " myfunc() + " " + myname)
+	print(welcomemsg + " and " + myfunc() + " " + myname)
