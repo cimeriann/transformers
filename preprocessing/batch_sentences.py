@@ -7,7 +7,11 @@ batch_sentences = [
     "What about elevensies?",
 ]
 
-encoded_input = tokenizer(batch_sentences, truncation=True,
-                          padding=True, return_tensors="pt")
+encoded_input_for_pt = tokenizer(batch_sentences, truncation=True,
+                                 padding=True, return_tensors="pt")
 
-print(encoded_input)
+encoded_input_for_tf = tokenizer(
+    batch_sentences, truncation=True, padding=True, return_tensors="tf")
+
+print(encoded_input_for_tf)
+print(encoded_input_for_pt)
